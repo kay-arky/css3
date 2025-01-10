@@ -1,0 +1,55 @@
+/*? box shadow */
+/*todo x-offset y-offset blur spread color */
+body {
+  margin: 0;
+  font: normal normal normal 16px/1.4 Arial, Helvetica, sans-serif;
+}
+
+.satu {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: greenyellow;
+  margin: 3em auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0 0 0 .2em black,
+    0 0 0 .4em red,
+    0 0 0 .6em green,
+    0 0 0 .8em blue;
+}
+
+.dua {
+  content: " text";
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: coral;
+  margin: 3em auto;
+  border-radius: 1em;
+  box-shadow: 0 2em 1em -1.5em black;
+}
+
+
+.dua:hover {
+  transform: translateY(-1em);
+  -webkit-transform: translateY(-1em);
+  -moz-transform: translateY(-1em);
+  -ms-transform: translateY(-1em);
+  -o-transform: translateY(-1em);
+  box-shadow: 0 3em 1em -1.2em black;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
