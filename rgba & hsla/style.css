@@ -1,0 +1,23 @@
+/* rgba & hsla */
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('kay.png') top left/30% no-repeat;
+}
+
+.satu {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: hsla(186, 100%, 49%, 0.5);
+}
+
+.dua {
+  background-color: rgba(255, 0, 0, .5);
+  position: absolute;
+  bottom: -3em;
+  right: -3em;
+  height: 100px;
+  width: 100px;
+}
