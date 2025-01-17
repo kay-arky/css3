@@ -1,0 +1,15 @@
+/* radial-gradient 
+background-image:radial-gradient(
+tipe jangkauan at position-y position-x,
+first color, ... , last color )
+*/
+
+div.kotak {
+  margin: 1rem auto;
+  width: 50rem;
+  height: 50rem;
+}
+
+.satu {
+  background-image: radial-gradient(circle farthest-corner at top right, red, blue);
+}
