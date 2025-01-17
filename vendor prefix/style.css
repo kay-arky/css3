@@ -1,0 +1,17 @@
+/* prefix
+-webkit- (Chrome, Safari, Opera versi terbaru)
+-moz- (FireFox)
+-ms- (Internet Explorer
+-o- (opera versi terdahulu)
+*/
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
