@@ -4,6 +4,10 @@ tipe jangkauan at position-y position-x,
 first color, ... , last color )
 */
 
+:root {
+  font-family: cursive;
+}
+
 div.kotak {
   margin: 1rem auto;
   width: 50rem;

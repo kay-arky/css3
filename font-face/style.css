@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url("webfonts/JetBrainsMono-Regular.woff2") format('woff2');
+
+}
+
+:root {
+  font: normal normal 1em/1.4 "JetBrains Mono", monospace;
+}
